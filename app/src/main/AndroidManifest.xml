@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.d3ifcool.dailyactivityroutine">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Daily Activity Routine"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings.SettingsActivity"
+            android:label="Pengaturan"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Settings.AntarMukaActivity"
+            android:label="Antarmuka"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Statistik.StatisticsActivity"
+            android:label="Statistik"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Help.HelpActivity"
+            android:label="Bantuan" />
+        <activity
+            android:name=".Help.TutorialActivity"
+            android:label="Cara penggunaan" />
+        <activity android:name=".Timeline.AddScheduleActivity" />
+        <activity
+            android:name=".Diary.DiaryBookActivity"
+            android:label="Buku harian" />
+        <activity android:name=".Diary.AddDiaryActivity" />
+        <activity
+            android:name=".Help.Feedback"
+            android:label="Kritik dan Saran" />
+
+        <provider
+            android:name=".Database.ActivityProvider"
+            android:authorities="org.d3ifcool.dailyactivityroutinefix"
+            android:exported="false" />
+
+        <activity
+            android:name=".About.About"
+            android:label="Tentang kami" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".News.MenuNews">
+            Movie
+        </activity>
+        <activity android:name=".News.WeatherActivity"></activity>
+        <activity android:name=".Profile.ProfileActivity"
+            android:label="Profil"/>
+    </application>
+
+</manifest>

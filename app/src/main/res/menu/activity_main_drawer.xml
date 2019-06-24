@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jadwal"
+            android:icon="@drawable/ic_timeline"
+            android:title="Jadwal" />
+        <item
+            android:id="@+id/nav_memo"
+            android:icon="@drawable/ic_note"
+            android:title="Memo" />
+        <item
+            android:id="@+id/nav_buku_harian"
+            android:icon="@drawable/ic_book"
+            android:title="Buku harian"/>
+        <item
+            android:id="@+id/nav_statistiks"
+            android:icon="@drawable/ic_statistik"
+            android:title="Statistiks"/>
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="News"/>
+    </group>
+
+    <item android:title="Tentang">
+        <menu>
+            <item
+                android:id="@+id/nav_pengaturan"
+                android:icon="@drawable/ic_setting"
+                android:title="Pengaturan" />
+            <item
+                android:id="@+id/nav_tentang_kami"
+                android:icon="@drawable/ic_about"
+                android:title="@string/tentang" />
+            <item
+                android:id="@+id/nav_bantuan"
+                android:icon="@drawable/ic_help"
+                android:title="Bantuan" />
+
+        </menu>
+    </item>
+
+</menu>

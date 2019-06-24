@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.d3ifcool.dailyactivityroutine.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        app:tabTextColor="#FFFF"
+        app:tabSelectedTextColor="#D7CCC8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tablayout">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <include
+    layout="@layout/fragment_monday"/>
+</LinearLayout>
+

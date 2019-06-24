@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/learn" android:title="@string/label_learn"/>
+    <item android:id="@+id/rest" android:title="@string/label_rest"/>
+    <item android:id="@+id/relationship" android:title="@string/label_relationship"/>
+    <item android:id="@+id/work" android:title="@string/label_work"/>
+    <item android:id="@+id/entertainment" android:title="@string/label_entertainment"/>
+</menu>

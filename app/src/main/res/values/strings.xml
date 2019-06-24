@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name"> Daily Activity Routine </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+
+
+    <string name="sunday">Min</string>
+    <string name="monday">Sen</string>
+    <string name="tuesday">Sel</string>
+    <string name="wednesday">Rab</string>
+    <string name="thursday">Kam</string>
+    <string name="friday">Jum</string>
+    <string name="saturday">Sab</string>
+    <string name="day_sunday">Minggu</string>
+    <string name="day_monday">Senin</string>
+    <string name="day_tuesday">Selasa</string>
+    <string name="day_wednesday">Rabu</string>
+    <string name="day_thursday">Kamis</string>
+    <string name="day_friday">Jumat</string>
+    <string name="day_saturday">Sabtu</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="feedback">Feedback</string>
+    <string name="subject_input_hint">Subject</string>
+    <string name="email_input_hint">Enter email</string>
+    <string name="feedback_input_hint">Enter your feedback</string>
+    <string name="label_learn">Belajar</string>
+    <string name="label_rest">Istirahat</string>
+    <string name="label_relationship">Hubungan</string>
+    <string name="label_work">Kerja</string>
+    <string name="label_entertainment">Hiburan</string>
+
+
+    <string name="activity_name">Nama kegiatan</string>
+    <string name="icon_schedule">icon schedule</string>
+    <string name="make_your_dates">Make Your Dates</string>
+    <string name="buka_dengan">Buka dengan</string>
+    <string name="camera">Camera</string>
+    <string name="galery">Galery</string>
+    <string name="catatan">Catatan</string>
+    <string name="title">Title</string>
+    <string name="antar_muka">Antar Muka</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="belajar_mobpro">Belajar MobPro</string>
+    <string name="waktu">Waktu</string>
+    <string name="label">Label</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="my_diary">My Diary</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="belajar">Belajar</string>
+    <string name="your_name">Your Name</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="editor_insert_successful">successful</string>
+    <string name="editor_insert_failed">failed</string>
+    <string name="new_schedule">Tambah Jadwal</string>
+    <string name="edit_schedule">edit</string>
+    <string name="delete_failed">Hapus Gagal</string>
+    <string name="delete_successful">Hapus Berhasil</string>
+    <string name="tentang">Tentang</string>
+
+
+</resources>
